@@ -1,0 +1,66 @@
+.bar{
+    background-color: rgb(53, 52, 52);
+    position: static;
+    width: 100%;
+    
+}
+body{
+    margin: 0;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-color: black;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+h1{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin: 260px;
+    margin-bottom: 300px;
+    text-shadow: 2px 1px 1px #000;
+}
+footer{
+    background-color: rgb(53, 52, 52);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+article{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+}
+article p {
+    width: 800px;
+}
+article .paragrapg-r p {
+    margin-left: auto;
+    margin-right: 0;
+}
+ul.nav{
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+.nav li { 
+    display: inline;
+}
+ul.nav a {
+    display: inline-block;
+    width: 6em;
+    padding:10px;
+    background-color:  rgb(53, 52, 52);
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+ul.nav a:hover{
+    background-color: #333;
+    color: #f4f4f4;
+}
+.bar {
+    display: flex;
+}
